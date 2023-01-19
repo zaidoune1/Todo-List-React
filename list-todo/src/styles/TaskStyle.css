@@ -1,0 +1,148 @@
+button {
+    cursor: pointer;
+}
+
+.container {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.input-container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    width: 100%;
+    position: relative;
+
+}
+
+.clear-all-tasks {
+
+    display: flex;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.inp {
+    width: 400px;
+    height: 52px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(0, 0, 255, 0.098);
+    font-size: 15px;
+    font-weight: bold;
+    outline: none;
+    padding-left: 10px;
+
+}
+
+.btn-submit {
+    background-color: rgba(44, 44, 255, 0.185);
+    border: none;
+    height: 54px;
+    min-width: 70px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: absolute;
+    right: 0px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.clear-all-tasks {
+
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    background-color: transparent;
+    color: rgba(255, 0, 0, 0.687);
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.bloc-tasks {
+
+    width: 100%;
+    height: fit-content;
+    
+
+}
+
+.task-container {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    margin-top: 15px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgba(0, 0, 255, 0.098);
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+.btn-icon {
+
+    margin-left: 20px;
+
+}
+
+.icon {
+    font-size: 25px;
+    font-weight: bold;
+    color: rgba(0, 128, 0, 0.416);
+    background-color: white;
+    border: none;
+    margin-top: 15px;
+    background-color: transparent;
+
+}
+
+.alert-successfully {
+
+    background-color: rgba(0, 128, 0, 0.1);
+    border-radius: 25px;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alert-danger {
+
+    background-color: rgba(255, 0, 0, 0.215);
+    border-radius: 25px;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bloc-alerts {
+    font-size: 13px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-height: 20px;
+    width: 100%;
+}
